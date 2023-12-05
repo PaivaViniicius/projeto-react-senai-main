@@ -2,7 +2,7 @@
     width: 18.5%;
     display: block;
     margin: auto;
-    border: 10px solid rgb(0, 0, 0); /* Borda preta */
+    border: 10px solid #5F9EA0(0, 0, 0); /* Borda preta */
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); /* Sombra com desfoque */
 
 }
@@ -11,4 +11,7 @@
     background-color: #5F9EA0;
     padding: 0.5%;
 
+}
+.alo {
+width: 100%;
 }

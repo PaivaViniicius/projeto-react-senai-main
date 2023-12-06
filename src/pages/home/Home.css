@@ -1,17 +1,23 @@
+.img {
+  padding: 0% 3%;
+}
 .inicial img  {
     width: 18.5%;
-    display: block;
-    margin: auto;
+    align-items: left;
+    gap: 0px 0px 0px 5px;
     border: 10px solid #5F9EA0(0, 0, 0); /* Borda preta */
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); /* Sombra com desfoque */
 
 }
 
 .inicial h1 {
-    background-color: #5F9EA0;
+    background-color: #FF0000;
     padding: 0.5%;
-
+    color: white;
+    text-shadow: -2px 2px 0 #000;
 }
-.alo {
-width: 100%;
+.information {
+ background-color: #5F9EA0;
+ padding: 10%;
+ font-size: 20px;
 }

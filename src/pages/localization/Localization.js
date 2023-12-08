@@ -8,7 +8,7 @@ function Localization() {
 
     return (
         <div>
-            <h1 className='localization-title'>Localização</h1>
+            <h1 className='title'>Localização</h1>
             <div className="maps">            
             <img src="https://logodownload.org/wp-content/uploads/2018/01/google-maps-logo-1-1-1429x2048.png"></img>
             <a href = "https://goo.gl/maps/uX7C5g6DwMYGoS7HA">Link</a>

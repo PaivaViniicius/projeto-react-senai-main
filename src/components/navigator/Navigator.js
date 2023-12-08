@@ -14,9 +14,6 @@ const Navigator = () => {
           <Link to="/info">Informações</Link>
         </li>
         <li>
-          <Link to="/product">Produto</Link>
-        </li>
-        <li>
           <Link to="/contact">Contato</Link>
         </li>
         <li>

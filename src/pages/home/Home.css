@@ -7,13 +7,13 @@
   width: 18.5%;
   align-items: left;
   gap: 0px 0px 0px 5px;
-  border: 10px solid #5F9EA0(0, 0, 0);
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
 
 }
 
 .inicial h1 {
-  background-color: #FF0000;
+  background-color: #d30505;
   padding: 0.5%;
   color: white;
   text-shadow: -2px 2px 0 #000;
@@ -24,3 +24,5 @@
   padding: 10%;
   font-size: 20px;
 }
+
+

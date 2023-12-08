@@ -4,7 +4,7 @@ import InformationText from "../../components/informationText/InformationText";
 function Info() {
     return (
         <div>
-            <h1>Sobre o restaurante</h1>
+            <h1 className="title">Sobre o restaurante</h1>
             <InformationText
                 h2Content="Sobre nós"
                 pContent="Bem-vindos ao Maria Bonita, o restaurante que traz até você 

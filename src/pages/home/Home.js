@@ -5,10 +5,10 @@ import InformationText from "../../components/informationText/InformationText"
 function Home() {
 
     return (
-        <div class='inicial'>
+        <div className='inicial'>
             <h1>Restaurante Maria Bonita</h1>
 
-            <div class="img">
+            <div className="img">
                 <img src={logoPrincipal} />
 
                 <InformationText

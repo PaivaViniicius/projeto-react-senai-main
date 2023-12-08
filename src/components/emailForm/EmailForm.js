@@ -5,7 +5,7 @@ import whatsApp from "../../img/whatsApp.png";
 
 function EmailForm() {
     return (
-        <div className="email-form-container">
+        <div className="email-form-container">  
             <div className="image-gallery">
                 <div className="image-container">
                     <img src={Instagram}/>
@@ -18,7 +18,7 @@ function EmailForm() {
                 <div className="image-container">
                     <img src={whatsApp}/>
                     <div className="contact-buttons">
-                        <a href="https://api.whatsapp.com/send?phone=seu-numero" target="_blank" rel="noopener noreferrer">
+                        <a href="https://api.whatsapp.com/send?phone=48996606563" target="_blank" rel="noopener noreferrer">
                             <button> WhatsApp </button>
                         </a>
                     </div>

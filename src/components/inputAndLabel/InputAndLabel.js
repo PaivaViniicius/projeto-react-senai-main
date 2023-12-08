@@ -1,6 +1,4 @@
 
-
-
 function InputAndLabel (props) {
     return(
         <div>

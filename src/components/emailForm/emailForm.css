@@ -1,8 +1,9 @@
+
 .image-gallery {
     display: flex;
     justify-content: center; /* Centraliza as imagens horizontalmente */
     gap: 150px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .image-container {
@@ -15,13 +16,12 @@
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .contact-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 10px; /* Adicione margem superior conforme necessário */
+    margin-top: 5px; /* Adicione margem superior conforme necessário */
 }
 
 .contact-buttons a:hover {
@@ -29,17 +29,16 @@
 }
 
 .contact-buttons button {
-    background-color: #3b3b3bee;
-    color: white;
-    padding: 10px 10px;
-    border: none;
-    border-radius: 10px;
+    background-color: #e74c3c; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
     cursor: pointer;
-    transition: transform 0.3s ease-in-out; /* Adiciona transição suave ao efeito de zoom */
-    text-shadow: 5px 5px 5px #000; /* Adiciona uma sombra preta ao redor do texto */
-
+    transition: background-color 0.3s ease-in-out; /* Transição suave na mudança de cor de fundo */
 }
 
 .contact-buttons button:hover {
-    transform: scale(1.1); /* Adiciona efeito de zoom quando o mouse está sobre o botão */
+    background-color: #c0392b; /* Cor de fundo vermelha mais escura ao passar o mouse */
+    color: white; /* Cor do texto branco ao passar o mouse */
 }

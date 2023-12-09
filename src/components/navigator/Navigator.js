@@ -29,6 +29,7 @@ const Navigator = () => {
             <FontAwesomeIcon icon={faMapMarker} /> Localização
           </Link>
         </li>
+        <div id='mariaTittle'>Restaurante Maria Bonita</div>
       </ul>
     </nav>
   );

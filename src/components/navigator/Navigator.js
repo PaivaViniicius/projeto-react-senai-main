@@ -1,23 +1,33 @@
 // Navigator.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './navigator.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faInfo, faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
+import './navigator.css';
 
 const Navigator = () => {
   return (
     <nav className='navbar'>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">
+            <FontAwesomeIcon icon={faHome} /> Home
+          </Link>
         </li>
         <li>
-          <Link to="/info">Informações</Link>
+          <Link to="/info">
+            <FontAwesomeIcon icon={faInfo} /> Informações
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contato</Link>
+          <Link to="/contact">
+            <FontAwesomeIcon icon={faPhone} /> Contato
+          </Link>
         </li>
         <li>
-          <Link to="/localization">Localização</Link>
+          <Link to="/localization">
+            <FontAwesomeIcon icon={faMapMarker} /> Localização
+          </Link>
         </li>
       </ul>
     </nav>

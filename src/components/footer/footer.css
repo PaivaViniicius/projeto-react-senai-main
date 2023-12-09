@@ -8,6 +8,7 @@
     padding: 5px 0;
     text-align: center;
     text-shadow: -2px 2px 0 #000;
+    background: linear-gradient(to left, #500101, #d30000);
   }
   
   .footer ul {

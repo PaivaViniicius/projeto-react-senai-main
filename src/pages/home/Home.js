@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className='inicial'>
 
-      <img className='background-image' src={imgHome} alt='Imagem de Fundo' />
+      <img className='background-image' src={imgHome}/>
 
 
 

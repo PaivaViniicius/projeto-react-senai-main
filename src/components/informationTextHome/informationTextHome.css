@@ -1,14 +1,14 @@
 .information-text-home {
     text-align: center;
     max-width: 600px;
-    margin-left: 10%; /* Center the container horizontally */
-    padding: 20px; /* Increased padding for better spacing */
+    margin-left: 10%;
+    padding: 20px;
     background-color: #FFF5EE;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column; /* Stack h2 and p vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column;
+    align-items: center;
 }
 
 .information-text-home h2 {
@@ -19,5 +19,5 @@
 .information-text-home p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 0; /* Remove default bottom margin for better alignment */
+    margin-bottom: 0;
 }

@@ -8,7 +8,6 @@ function Info() {
         <div>
 
 
-            <h1 className="title">Sobre o restaurante</h1>
 
             <img className="img-Sobre" src={imgSobre} img />
 

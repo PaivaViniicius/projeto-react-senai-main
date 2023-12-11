@@ -2,6 +2,7 @@ import './emailForm.css';
 import Instagram from "../../img/Instagram.png";
 import facebook from "../../img/facebook.png";
 import whatsApp from "../../img/whatsApp.png";
+import fone from "../../img/fone3.png";
 
 function EmailForm() {
     return (
@@ -28,6 +29,14 @@ function EmailForm() {
                     <div className="contact-buttons">
                         <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
                             <button>Facebook</button>
+                        </a>
+                    </div>
+                </div>
+                <div className="image-container">
+                    <img src={fone}/>
+                    <div className="contact-buttons">
+                        <a href="tel:+5548984832625" target="_blank" rel="noopener noreferrer">
+                            <button>Telefone</button>
                         </a>
                     </div>
                 </div>

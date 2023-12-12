@@ -8,9 +8,7 @@ function Home() {
   return (
     <div className='inicial'>
 
-      <img className='background-image' src={imgHome}/>
-
-
+      <img className='background-img' src={imgHome}/>
 
       <div className='center-section'>
         <InformationTextHome

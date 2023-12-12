@@ -1,44 +1,55 @@
-
-.image-gallery {
-    display: flex;
-    justify-content: center; /* Centraliza as imagens horizontalmente */
-    gap: 150px;
-    margin-top: 70px;
+*{
+    font-family: Arial, sans-serif;
 }
 
-.image-container {
+.formulario {
     position: relative;
-    overflow: hidden;
-    width: 15%; /* Ajuste conforme necessário */
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
-.image-container img {
-    width: 100%;
-    height: auto;
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.label {
     display: block;
+    margin-bottom: 15px;
 }
 
-.contact-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 5px; /* Adicione margem superior conforme necessário */
+.input-bordas {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.contact-buttons a:hover {
-    transform: scale(1.1); /* Adiciona efeito de zoom quando o mouse está sobre o botão */
+.button-form {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+}
+.input-bordas-textarea{
+    width: 100%;
+    padding: px;
+    margin-bottom: 15px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
 }
 
-.contact-buttons button {
-    background-color: #e74c3c; /* Cor de fundo vermelha */
-    color: white; /* Cor do texto branco */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out; /* Transição suave na mudança de cor de fundo */
+.button-form:hover {
+    background-color: #45a049;
 }
 
-.contact-buttons button:hover {
-    background-color: #c0392b; /* Cor de fundo vermelha mais escura ao passar o mouse */
-    color: white; /* Cor do texto branco ao passar o mouse */
+#info{
+    text-align: center;
 }

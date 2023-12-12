@@ -1,46 +1,32 @@
-import './emailForm.css';
-import Instagram from "../../img/Instagram.png";
-import facebook from "../../img/facebook.png";
-import whatsApp from "../../img/whatsApp.png";
-import fone from "../../img/fone3.png";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import './emailForm.css'; 
 
 function EmailForm() {
     return (
-        <div className="email-form-container">  
-            <div className="image-gallery">
-                <div className="image-container">
-                    <img src={Instagram}/>
-                    <div className="contact-buttons">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                            <button>Instagram</button>
-                        </a>
-                    </div>
+        <div className="container">
+            <form className="formulario" method="post" action="enviaDados.php">
+                
+                <h2 className="titulo">Formulário de Contato</h2>
+                <label className="label">
+                    <input type="text" className="input-bordas" placeholder="Nome" required />
+                </label>
+                <label className="label">
+                    <input type="text" className="input-bordas" placeholder="E-mail" required />
+                </label>
+                <label className="label">
+                    <input type="text" className="input-bordas" placeholder="Assunto" required />
+                </label>
+                <label className="label">
+                    <textarea type="text" className="input-bordas-textarea" rows="6" placeholder="Descrição" required />
+                </label>
+                <div id='info'>
+                    <button className="button-form borda-inversa">Enviar</button>
+                    <p><FontAwesomeIcon icon={faEnvelope} /> <strong> Email: mariabonita@gmail.com</strong></p>
+                    <p><FontAwesomeIcon icon={faPhone} /> <strong> Telefone: (48) 1234-5678</strong></p>
                 </div>
-                <div className="image-container">
-                    <img src={whatsApp}/>
-                    <div className="contact-buttons">
-                        <a href="https://api.whatsapp.com/send?phone=48996606563" target="_blank" rel="noopener noreferrer">
-                            <button> WhatsApp </button>
-                        </a>
-                    </div>
-                </div>
-                <div className="image-container">
-                    <img src={facebook}/>
-                    <div className="contact-buttons">
-                        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
-                            <button>Facebook</button>
-                        </a>
-                    </div>
-                </div>
-                <div className="image-container">
-                    <img src={fone}/>
-                    <div className="contact-buttons">
-                        <a href="tel:+5548984832625" target="_blank" rel="noopener noreferrer">
-                            <button>Telefone</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            </form>
         </div>
     );
 }

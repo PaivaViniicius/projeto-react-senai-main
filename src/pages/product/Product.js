@@ -3,9 +3,8 @@ function Product(){
 
     return(
         <div>
-            <img className='background-image-info' src={imgProduto} />
+            <img className='background-img' src={imgProduto} />
             <h1 className='title'>Produto</h1>
-
         </div>
     )
 }

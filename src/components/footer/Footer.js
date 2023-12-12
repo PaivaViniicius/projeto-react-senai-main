@@ -7,6 +7,8 @@ import './footer.css';
 const Footer = () => {
   return (
     <footer className='footer'>
+
+      <h3 className='footer-Email'>mariabonita@gmail.com / (xx)xxxxx-xxxx</h3>
       <ul>
         <li>
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">

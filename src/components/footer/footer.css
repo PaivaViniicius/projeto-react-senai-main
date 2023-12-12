@@ -1,11 +1,10 @@
 /* footer.css */
 .footer {
     position: fixed;
-    bottom: 0;
+    bottom: 0%;
     left: 0;
     width: 100%;
     background-color: #333;
-    padding: 5px 0;
     text-align: center;
     text-shadow: -2px 2px 0 #000;
     background: linear-gradient(to left, #500101, #d30000);
@@ -37,5 +36,13 @@
   }
   .rights {
     font-size: 10px;
+    color: white;
+  }
+  .footer-Email{
+    text-align: center;
+    color: white;
+  }
+  .footer-Fone{
+    text-align: center;
     color: white;
   }

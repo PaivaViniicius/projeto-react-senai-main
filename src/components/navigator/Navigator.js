@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faInfo, faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping, faHome, faInfo, faMapMarker, faPhone, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import logoPrincipal from "../../img/mariaIcon.png"
 import './navigator.css';
 
@@ -25,7 +25,7 @@ const Navigator = () => {
         </li>
         <li>
           <Link to="/product">
-            <FontAwesomeIcon icon={faInfo} /> Produto
+            <FontAwesomeIcon icon={faShoppingCart} /> Produto
           </Link>
         </li>
         <li>

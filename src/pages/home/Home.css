@@ -10,17 +10,8 @@
 
 .center-section {
   text-align: center;
-  padding: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   filter: opacity(90%)
 }
-
-.side-image {
-  width: 100px;
-  height: 100px;
-  margin-top: -100px;
-  border-radius: 50%;
-}
-

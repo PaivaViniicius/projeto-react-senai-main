@@ -11,9 +11,9 @@ function Product() {
             <div className='background-img-container'>
                 <img className='background-img' src={imgProduto}/>
             </div>
-            <h1 className='title'>Comidas Tipicas</h1>
+            <h1>Comidas Tipicas</h1>
             <div className="text-Inicial-Produto">
-                <img className="imgAcaraje" src={ImgAcaraje} />
+                <img className="imgMenu" src={ImgAcaraje} />
                 <InformationTextProduct
                     h2Content="Acarajé"
                     pContent="O acarajé é um prato tradicional da culinária afro-brasileira, originário da Bahia. 
@@ -25,7 +25,7 @@ function Product() {
                 />
             </div>
             <div className="text-Inicial-Produto2">
-                <img className="imgAcaraje" src={imgVatapa} />
+                <img className="imgMenu" src={imgVatapa} />
                 <InformationTextProduct
                     h2Content="Vatapá"
                     pContent="O vatapá é um prato tradicional nordestino do Brasil, especialmente associado à Bahia. É um creme feito com pão, camarões secos, amendoim, 
@@ -34,7 +34,7 @@ function Product() {
                 />
             </div>
             <div className="text-Inicial-Produto3">
-                <img className="imgAcaraje" src={imgPaeja} />
+                <img className="imgMenu" src={imgPaeja} />
                 <InformationTextProduct
                     h2Content="Paeja"
                     pContent="A paella é um prato tradicional espanhol, originário da Comunidade Valenciana. Preparada em uma paellera, uma frigideira larga, 

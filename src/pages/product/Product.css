@@ -1,0 +1,28 @@
+.text-Inicial-Produto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    filter: opacity(90%);
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.imgAcaraje{
+    width: 30%;
+    position: absolute;
+    left: 36%;
+    top: 35%;
+    border-radius: 40px;
+
+}
+
+.text-Inicial-Produto2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    filter: opacity(90%);
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}

@@ -9,9 +9,9 @@ function Localization() {
 
     return (
         <div className="img">
-            <img className='background-image-info' src={imgHome} />
+            <img className='background-img' src={imgHome} />
+            <h1>Localização</h1>
             <div className="map">
-                <h1>Localização</h1>
                 <p>Nosso local está localizado em Florianópolis na marginal da SC-401, próximo ao Floripa Shopping. Possui um ótimo estacionamento e de fácil acesso. Venha nos conhecer!</p>
                 <MapaRestaurante/>
             </div>

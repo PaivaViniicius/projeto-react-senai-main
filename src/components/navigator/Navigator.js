@@ -24,6 +24,11 @@ const Navigator = () => {
           </Link>
         </li>
         <li>
+          <Link to="/product">
+            <FontAwesomeIcon icon={faInfo} /> Produto
+          </Link>
+        </li>
+        <li>
           <Link to="/contact">
             <FontAwesomeIcon icon={faPhone} /> Contato
           </Link>

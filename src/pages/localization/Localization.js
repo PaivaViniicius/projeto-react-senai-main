@@ -1,8 +1,9 @@
 import React from "react";
 import './localization.css'
 import { iframe } from "react";
-import mapSenai from "../../img/mapSenai.png"
 import imgHome from "../../img/imgHome.png"
+import MapaSenai from "../../components/mapa/mapa";
+import MapaRestaurante from "../../components/mapa/mapa";
 
 function Localization() {
 
@@ -11,11 +12,9 @@ function Localization() {
             <img className='background-image-info' src={imgHome} />
             <div className="map">
                 <h1>Localização</h1>
-                <a href="https://abrir.link/PEph6" target="_blank">
-                    <img className="img-Map" src={mapSenai} alt="Mapa do Senai" />
-                </a>
+                <p>Nosso local está localizado em Florianópolis na marginal da SC-401, próximo ao Floripa Shopping. Possui um ótimo estacionamento e de fácil acesso. Venha nos conhecer!</p>
+                <MapaRestaurante/>
             </div>
-
         </div>
 
     );

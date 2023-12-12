@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .text-Inicial-Produto{
     text-align: center;
     display: flex;
@@ -25,4 +28,15 @@
     align-items: center;
     height: 80vh;
     width: 100vw;
+}
+
+.background-img-container{
+    width: 170%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    filter: brightness(0.5);
 }
